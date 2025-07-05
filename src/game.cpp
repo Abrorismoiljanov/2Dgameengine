@@ -36,7 +36,6 @@ void Game::Update(){
     if (input.Keypressed(SDL_SCANCODE_ESCAPE)) {
         gamerun = false;
     }
-    Errormessage("Gachi mucha");
 }
 
 void Game::Render(){
