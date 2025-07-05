@@ -1,0 +1,32 @@
+[
+{
+  "directory": "/home/abror/C++_codes/EngineDemo/build",
+  "command": "/usr/bin/c++  -I/home/abror/C++_codes/EngineDemo/include -isystem /usr/include/SDL2 -std=gnu++17 -o CMakeFiles/EngineDemo.dir/src/entity.cpp.o -c /home/abror/C++_codes/EngineDemo/src/entity.cpp",
+  "file": "/home/abror/C++_codes/EngineDemo/src/entity.cpp",
+  "output": "CMakeFiles/EngineDemo.dir/src/entity.cpp.o"
+},
+{
+  "directory": "/home/abror/C++_codes/EngineDemo/build",
+  "command": "/usr/bin/c++  -I/home/abror/C++_codes/EngineDemo/include -isystem /usr/include/SDL2 -std=gnu++17 -o CMakeFiles/EngineDemo.dir/src/error.cpp.o -c /home/abror/C++_codes/EngineDemo/src/error.cpp",
+  "file": "/home/abror/C++_codes/EngineDemo/src/error.cpp",
+  "output": "CMakeFiles/EngineDemo.dir/src/error.cpp.o"
+},
+{
+  "directory": "/home/abror/C++_codes/EngineDemo/build",
+  "command": "/usr/bin/c++  -I/home/abror/C++_codes/EngineDemo/include -isystem /usr/include/SDL2 -std=gnu++17 -o CMakeFiles/EngineDemo.dir/src/event.cpp.o -c /home/abror/C++_codes/EngineDemo/src/event.cpp",
+  "file": "/home/abror/C++_codes/EngineDemo/src/event.cpp",
+  "output": "CMakeFiles/EngineDemo.dir/src/event.cpp.o"
+},
+{
+  "directory": "/home/abror/C++_codes/EngineDemo/build",
+  "command": "/usr/bin/c++  -I/home/abror/C++_codes/EngineDemo/include -isystem /usr/include/SDL2 -std=gnu++17 -o CMakeFiles/EngineDemo.dir/src/game.cpp.o -c /home/abror/C++_codes/EngineDemo/src/game.cpp",
+  "file": "/home/abror/C++_codes/EngineDemo/src/game.cpp",
+  "output": "CMakeFiles/EngineDemo.dir/src/game.cpp.o"
+},
+{
+  "directory": "/home/abror/C++_codes/EngineDemo/build",
+  "command": "/usr/bin/c++  -I/home/abror/C++_codes/EngineDemo/include -isystem /usr/include/SDL2 -std=gnu++17 -o CMakeFiles/EngineDemo.dir/src/main.cpp.o -c /home/abror/C++_codes/EngineDemo/src/main.cpp",
+  "file": "/home/abror/C++_codes/EngineDemo/src/main.cpp",
+  "output": "CMakeFiles/EngineDemo.dir/src/main.cpp.o"
+}
+]
