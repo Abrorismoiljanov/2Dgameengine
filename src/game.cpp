@@ -33,6 +33,7 @@ void Game::Update(){
     if (input.wannaQuit()) {
     gamerun = false;
     }
+    Errormessage("Gachi muchi!", window, renderer);
     if (input.Keypressed(SDL_SCANCODE_ESCAPE)) {
         gamerun = false;
     }
