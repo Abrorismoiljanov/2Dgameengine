@@ -210,14 +210,104 @@ EngineDemo_IS_TOP_LEVEL:STATIC=ON
 //Value Computed by CMake
 EngineDemo_SOURCE_DIR:STATIC=/home/abror/C++_codes/EngineDemo
 
+//Path to a file.
+JPEG_INCLUDE_DIR:PATH=/usr/include
+
+//Path to a library.
+JPEG_LIBRARY_DEBUG:FILEPATH=JPEG_LIBRARY_DEBUG-NOTFOUND
+
+//Path to a library.
+JPEG_LIBRARY_RELEASE:FILEPATH=/usr/lib/libjpeg.so
+
+//Path to a library.
+PNG_LIBRARY_DEBUG:FILEPATH=PNG_LIBRARY_DEBUG-NOTFOUND
+
+//Path to a library.
+PNG_LIBRARY_RELEASE:FILEPATH=/usr/lib/libpng.so
+
+//Path to a file.
+PNG_PNG_INCLUDE_DIR:PATH=/usr/include
+
 //The directory containing a CMake configuration file for SDL2.
 SDL2_DIR:PATH=/usr/lib/cmake/SDL2
 
 //The directory containing a CMake configuration file for SDL2_TTF.
 SDL2_TTF_DIR:PATH=/usr/lib/cmake/SDL2_ttf
 
+//The directory containing a CMake configuration file for SDL2_image.
+SDL2_image_DIR:PATH=/usr/lib/cmake/SDL2_image
+
 //The directory containing a CMake configuration file for SDL2_ttf.
 SDL2_ttf_DIR:PATH=/usr/lib/cmake/SDL2_ttf
+
+//Path to a file.
+TIFF_INCLUDE_DIR:PATH=/usr/include
+
+//Path to a library.
+TIFF_LIBRARY_DEBUG:FILEPATH=TIFF_LIBRARY_DEBUG-NOTFOUND
+
+//Path to a library.
+TIFF_LIBRARY_RELEASE:FILEPATH=/usr/lib/libtiff.so
+
+//The directory containing a CMake configuration file for Tiff.
+Tiff_DIR:PATH=Tiff_DIR-NOTFOUND
+
+//Path to a file.
+ZLIB_INCLUDE_DIR:PATH=/usr/include
+
+//Path to a library.
+ZLIB_LIBRARY_DEBUG:FILEPATH=ZLIB_LIBRARY_DEBUG-NOTFOUND
+
+//Path to a library.
+ZLIB_LIBRARY_RELEASE:FILEPATH=/usr/lib/libz.so
+
+//The directory containing a CMake configuration file for libavif.
+libavif_DIR:PATH=/usr/lib/cmake/libavif
+
+//Extra compile options of libjxl
+libjxl_COMPILE_OPTIONS:STRING=
+
+//Path to a file.
+libjxl_INCLUDE_PATH:PATH=/usr/include
+
+//Path to a library.
+libjxl_LIBRARY:FILEPATH=/usr/lib/libjxl.so
+
+//Extra link flags of libjxl
+libjxl_LINK_FLAGS:STRING=
+
+//Extra link libraries of libjxl
+libjxl_LINK_LIBRARIES:STRING=
+
+//Extra compile options of webp
+webp_COMPILE_OPTIONS:STRING=
+
+//Path to a file.
+webp_INCLUDE_PATH:PATH=/usr/include
+
+//Path to a library.
+webp_LIBRARY:FILEPATH=/usr/lib/libwebp.so
+
+//Extra link flags of webp
+webp_LINK_FLAGS:STRING=
+
+//Extra link libraries of webp
+webp_LINK_LIBRARIES:STRING=
+
+//Extra compile options of webpdemux
+webpdemux_COMPILE_OPTIONS:STRING=
+
+//Path to a file.
+webpdemux_INCLUDE_PATH:PATH=/usr/include
+
+//Path to a library.
+webpdemux_LIBRARY:FILEPATH=/usr/lib/libwebpdemux.so
+
+//Extra link flags of webpdemux
+webpdemux_LINK_FLAGS:STRING=
+
+//Extra link libraries of webpdemux
+webpdemux_LINK_LIBRARIES:STRING=
 
 
 ########################
@@ -355,4 +445,40 @@ CMAKE_TAPI-ADVANCED:INTERNAL=1
 CMAKE_UNAME:INTERNAL=/usr/bin/uname
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
+//Details about finding JPEG
+FIND_PACKAGE_MESSAGE_DETAILS_JPEG:INTERNAL=[/usr/lib/libjpeg.so][/usr/include][v80()]
+//Details about finding PNG
+FIND_PACKAGE_MESSAGE_DETAILS_PNG:INTERNAL=[/usr/lib/libpng.so][/usr/include][v1.6.50()]
+//Details about finding TIFF
+FIND_PACKAGE_MESSAGE_DETAILS_TIFF:INTERNAL=[/usr/lib/libtiff.so][/usr/include][ ][v4.7.0()]
+//Details about finding ZLIB
+FIND_PACKAGE_MESSAGE_DETAILS_ZLIB:INTERNAL=[/usr/lib/libz.so][/usr/include][ ][v1.3.1()]
+//Details about finding libjxl
+FIND_PACKAGE_MESSAGE_DETAILS_libjxl:INTERNAL=[/usr/lib/libjxl.so][/usr/include][v()]
+//Details about finding webp
+FIND_PACKAGE_MESSAGE_DETAILS_webp:INTERNAL=[/usr/lib/libwebp.so][/usr/include][/usr/lib/libwebpdemux.so][/usr/include][v()]
+//ADVANCED property for variable: JPEG_INCLUDE_DIR
+JPEG_INCLUDE_DIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: JPEG_LIBRARY_DEBUG
+JPEG_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: JPEG_LIBRARY_RELEASE
+JPEG_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: PNG_LIBRARY_DEBUG
+PNG_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: PNG_LIBRARY_RELEASE
+PNG_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: PNG_PNG_INCLUDE_DIR
+PNG_PNG_INCLUDE_DIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: TIFF_INCLUDE_DIR
+TIFF_INCLUDE_DIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: TIFF_LIBRARY_DEBUG
+TIFF_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: TIFF_LIBRARY_RELEASE
+TIFF_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: ZLIB_INCLUDE_DIR
+ZLIB_INCLUDE_DIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: ZLIB_LIBRARY_DEBUG
+ZLIB_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: ZLIB_LIBRARY_RELEASE
+ZLIB_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
 

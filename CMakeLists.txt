@@ -12,6 +12,7 @@ include_directories(${CMAKE_SOURCE_DIR}/include)
 
 find_package(SDL2 REQUIRED)
 find_package(SDL2_ttf REQUIRED)
+find_package(SDL2_image REQUIRED)
 
 # Add source files
 file(GLOB_RECURSE SOURCES src/*.cpp)
@@ -23,4 +24,5 @@ target_link_libraries(
   ${PROJECT_NAME}
   ${SDL2_LIBRARIES}
   SDL2_ttf::SDL2_ttf
+  SDL2_image::SDL2_image
 )

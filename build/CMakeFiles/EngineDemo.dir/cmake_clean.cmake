@@ -1,5 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/EngineDemo.dir/link.d"
+  "CMakeFiles/EngineDemo.dir/src/Components.cpp.o"
+  "CMakeFiles/EngineDemo.dir/src/Components.cpp.o.d"
   "CMakeFiles/EngineDemo.dir/src/entity.cpp.o"
   "CMakeFiles/EngineDemo.dir/src/entity.cpp.o.d"
   "CMakeFiles/EngineDemo.dir/src/error.cpp.o"

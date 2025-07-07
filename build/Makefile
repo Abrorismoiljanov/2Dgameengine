@@ -129,6 +129,30 @@ EngineDemo/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/EngineDemo.dir/build.make CMakeFiles/EngineDemo.dir/build
 .PHONY : EngineDemo/fast
 
+src/Components.o: src/Components.cpp.o
+.PHONY : src/Components.o
+
+# target to build an object file
+src/Components.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EngineDemo.dir/build.make CMakeFiles/EngineDemo.dir/src/Components.cpp.o
+.PHONY : src/Components.cpp.o
+
+src/Components.i: src/Components.cpp.i
+.PHONY : src/Components.i
+
+# target to preprocess a source file
+src/Components.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EngineDemo.dir/build.make CMakeFiles/EngineDemo.dir/src/Components.cpp.i
+.PHONY : src/Components.cpp.i
+
+src/Components.s: src/Components.cpp.s
+.PHONY : src/Components.s
+
+# target to generate assembly for a file
+src/Components.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EngineDemo.dir/build.make CMakeFiles/EngineDemo.dir/src/Components.cpp.s
+.PHONY : src/Components.cpp.s
+
 src/entity.o: src/entity.cpp.o
 .PHONY : src/entity.o
 
@@ -258,6 +282,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... EngineDemo"
+	@echo "... src/Components.o"
+	@echo "... src/Components.i"
+	@echo "... src/Components.s"
 	@echo "... src/entity.o"
 	@echo "... src/entity.i"
 	@echo "... src/entity.s"

@@ -1,49 +1,32 @@
 #include "entity.h"
 #include <SDL_rect.h>
 #include <SDL_render.h>
+#include <SDL_surface.h>
 #include <SDL_ttf.h>
 #include <endian.h>
+#include <iostream>
 #include <string>
+#include "Components.h"
 #include "colors.h"
 #include "error.h"
+#include <SDL2/SDL.h>
+#include <SDL2/SDL_image.h>
 
 using namespace Colors;
 
-entity::entity(float x, float y, Color color)
-    : x(x), y(y), velocityX(0), velocityY(0), color(color){
-
-    }
-
 void entity::update(float deltatime){
-    y += velocityY * deltatime;
-    x += velocityX * deltatime;
-}
-
-void entity::changeX(float value){
-     x = value;
-}
-void entity::changeY(float value){
-     y = value;
-}
-float entity::getX(){
-    return x;
-};
-float entity::getY(){
-    return y;
-}
-void entity::setColor(Color newcolor){
-    color = newcolor;
+    for (auto& [type, comp] : Components) {
+        comp->update(deltatime);
+    }
 }
 void entity::DrawnEntity(SDL_Renderer* renderer){
-    SDL_SetRenderDrawColor(renderer, color.r, color.g, color.b, color.a);
-    
-
-    SDL_RenderDrawPoint(renderer, static_cast<int>(x), static_cast<int>(y));
+    for (auto& [type, comp] : Components) {
+    comp->render(renderer);
+    }
 }
 
-
 textbox::textbox(std::string text, float x, float y, float width, float height, Color background, Color textcolor, float fontsize)
-    : text(text),entity(x,y), width(width), height(height), background(background), textcolor(textcolor), fontsize(fontsize){};
+    : text(text),x(x), y(y), width(width), height(height), background(background), textcolor(textcolor), fontsize(fontsize){};
  
 void textbox::TextInit(SDL_Renderer* renderer){
 
@@ -67,7 +50,7 @@ void textbox::TextInit(SDL_Renderer* renderer){
     }
 }
 void textbox::DrawnEntity(SDL_Renderer* renderer){
-    if (!textready) {
+    if (!textready){
     TextInit(renderer);
     textready = true;
     }

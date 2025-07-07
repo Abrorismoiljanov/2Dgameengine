@@ -72,10 +72,24 @@ include CMakeFiles/EngineDemo.dir/flags.make
 CMakeFiles/EngineDemo.dir/codegen:
 .PHONY : CMakeFiles/EngineDemo.dir/codegen
 
+CMakeFiles/EngineDemo.dir/src/Components.cpp.o: CMakeFiles/EngineDemo.dir/flags.make
+CMakeFiles/EngineDemo.dir/src/Components.cpp.o: /home/abror/C++_codes/EngineDemo/src/Components.cpp
+CMakeFiles/EngineDemo.dir/src/Components.cpp.o: CMakeFiles/EngineDemo.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/abror/C++_codes/EngineDemo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/EngineDemo.dir/src/Components.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/EngineDemo.dir/src/Components.cpp.o -MF CMakeFiles/EngineDemo.dir/src/Components.cpp.o.d -o CMakeFiles/EngineDemo.dir/src/Components.cpp.o -c /home/abror/C++_codes/EngineDemo/src/Components.cpp
+
+CMakeFiles/EngineDemo.dir/src/Components.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/EngineDemo.dir/src/Components.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abror/C++_codes/EngineDemo/src/Components.cpp > CMakeFiles/EngineDemo.dir/src/Components.cpp.i
+
+CMakeFiles/EngineDemo.dir/src/Components.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/EngineDemo.dir/src/Components.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abror/C++_codes/EngineDemo/src/Components.cpp -o CMakeFiles/EngineDemo.dir/src/Components.cpp.s
+
 CMakeFiles/EngineDemo.dir/src/entity.cpp.o: CMakeFiles/EngineDemo.dir/flags.make
 CMakeFiles/EngineDemo.dir/src/entity.cpp.o: /home/abror/C++_codes/EngineDemo/src/entity.cpp
 CMakeFiles/EngineDemo.dir/src/entity.cpp.o: CMakeFiles/EngineDemo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/abror/C++_codes/EngineDemo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/EngineDemo.dir/src/entity.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/abror/C++_codes/EngineDemo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/EngineDemo.dir/src/entity.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/EngineDemo.dir/src/entity.cpp.o -MF CMakeFiles/EngineDemo.dir/src/entity.cpp.o.d -o CMakeFiles/EngineDemo.dir/src/entity.cpp.o -c /home/abror/C++_codes/EngineDemo/src/entity.cpp
 
 CMakeFiles/EngineDemo.dir/src/entity.cpp.i: cmake_force
@@ -89,7 +103,7 @@ CMakeFiles/EngineDemo.dir/src/entity.cpp.s: cmake_force
 CMakeFiles/EngineDemo.dir/src/error.cpp.o: CMakeFiles/EngineDemo.dir/flags.make
 CMakeFiles/EngineDemo.dir/src/error.cpp.o: /home/abror/C++_codes/EngineDemo/src/error.cpp
 CMakeFiles/EngineDemo.dir/src/error.cpp.o: CMakeFiles/EngineDemo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/abror/C++_codes/EngineDemo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/EngineDemo.dir/src/error.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/abror/C++_codes/EngineDemo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/EngineDemo.dir/src/error.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/EngineDemo.dir/src/error.cpp.o -MF CMakeFiles/EngineDemo.dir/src/error.cpp.o.d -o CMakeFiles/EngineDemo.dir/src/error.cpp.o -c /home/abror/C++_codes/EngineDemo/src/error.cpp
 
 CMakeFiles/EngineDemo.dir/src/error.cpp.i: cmake_force
@@ -103,7 +117,7 @@ CMakeFiles/EngineDemo.dir/src/error.cpp.s: cmake_force
 CMakeFiles/EngineDemo.dir/src/event.cpp.o: CMakeFiles/EngineDemo.dir/flags.make
 CMakeFiles/EngineDemo.dir/src/event.cpp.o: /home/abror/C++_codes/EngineDemo/src/event.cpp
 CMakeFiles/EngineDemo.dir/src/event.cpp.o: CMakeFiles/EngineDemo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/abror/C++_codes/EngineDemo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/EngineDemo.dir/src/event.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/abror/C++_codes/EngineDemo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/EngineDemo.dir/src/event.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/EngineDemo.dir/src/event.cpp.o -MF CMakeFiles/EngineDemo.dir/src/event.cpp.o.d -o CMakeFiles/EngineDemo.dir/src/event.cpp.o -c /home/abror/C++_codes/EngineDemo/src/event.cpp
 
 CMakeFiles/EngineDemo.dir/src/event.cpp.i: cmake_force
@@ -117,7 +131,7 @@ CMakeFiles/EngineDemo.dir/src/event.cpp.s: cmake_force
 CMakeFiles/EngineDemo.dir/src/game.cpp.o: CMakeFiles/EngineDemo.dir/flags.make
 CMakeFiles/EngineDemo.dir/src/game.cpp.o: /home/abror/C++_codes/EngineDemo/src/game.cpp
 CMakeFiles/EngineDemo.dir/src/game.cpp.o: CMakeFiles/EngineDemo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/abror/C++_codes/EngineDemo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/EngineDemo.dir/src/game.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/abror/C++_codes/EngineDemo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/EngineDemo.dir/src/game.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/EngineDemo.dir/src/game.cpp.o -MF CMakeFiles/EngineDemo.dir/src/game.cpp.o.d -o CMakeFiles/EngineDemo.dir/src/game.cpp.o -c /home/abror/C++_codes/EngineDemo/src/game.cpp
 
 CMakeFiles/EngineDemo.dir/src/game.cpp.i: cmake_force
@@ -131,7 +145,7 @@ CMakeFiles/EngineDemo.dir/src/game.cpp.s: cmake_force
 CMakeFiles/EngineDemo.dir/src/main.cpp.o: CMakeFiles/EngineDemo.dir/flags.make
 CMakeFiles/EngineDemo.dir/src/main.cpp.o: /home/abror/C++_codes/EngineDemo/src/main.cpp
 CMakeFiles/EngineDemo.dir/src/main.cpp.o: CMakeFiles/EngineDemo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/abror/C++_codes/EngineDemo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/EngineDemo.dir/src/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/abror/C++_codes/EngineDemo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/EngineDemo.dir/src/main.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/EngineDemo.dir/src/main.cpp.o -MF CMakeFiles/EngineDemo.dir/src/main.cpp.o.d -o CMakeFiles/EngineDemo.dir/src/main.cpp.o -c /home/abror/C++_codes/EngineDemo/src/main.cpp
 
 CMakeFiles/EngineDemo.dir/src/main.cpp.i: cmake_force
@@ -144,6 +158,7 @@ CMakeFiles/EngineDemo.dir/src/main.cpp.s: cmake_force
 
 # Object files for target EngineDemo
 EngineDemo_OBJECTS = \
+"CMakeFiles/EngineDemo.dir/src/Components.cpp.o" \
 "CMakeFiles/EngineDemo.dir/src/entity.cpp.o" \
 "CMakeFiles/EngineDemo.dir/src/error.cpp.o" \
 "CMakeFiles/EngineDemo.dir/src/event.cpp.o" \
@@ -153,6 +168,7 @@ EngineDemo_OBJECTS = \
 # External object files for target EngineDemo
 EngineDemo_EXTERNAL_OBJECTS =
 
+EngineDemo: CMakeFiles/EngineDemo.dir/src/Components.cpp.o
 EngineDemo: CMakeFiles/EngineDemo.dir/src/entity.cpp.o
 EngineDemo: CMakeFiles/EngineDemo.dir/src/error.cpp.o
 EngineDemo: CMakeFiles/EngineDemo.dir/src/event.cpp.o
@@ -163,8 +179,9 @@ EngineDemo: CMakeFiles/EngineDemo.dir/compiler_depend.ts
 EngineDemo: /usr/lib/libSDL2main.a
 EngineDemo: /usr/lib/libSDL2-2.0.so.0.3200.56
 EngineDemo: /usr/lib/libSDL2_ttf.so
+EngineDemo: /usr/lib/libSDL2_image.so
 EngineDemo: CMakeFiles/EngineDemo.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/abror/C++_codes/EngineDemo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable EngineDemo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/abror/C++_codes/EngineDemo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable EngineDemo"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/EngineDemo.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
