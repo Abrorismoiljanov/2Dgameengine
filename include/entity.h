@@ -3,13 +3,11 @@
 #include <SDL2/SDL_render.h>
 #include <SDL_ttf.h>
 #include <memory>
-#include <string>
 #include <type_traits>
 #include <typeindex>
 #include <unordered_map>
 #include <utility>
 #include "Components.h"
-#include "colors.h"
 class entity{
 private:
     std::unordered_map<std::type_index, std::unique_ptr<Component>> Components;
@@ -38,24 +36,5 @@ public:
     void update(float deltatime);
     void DrawnEntity(SDL_Renderer* renderer);
     virtual ~entity() = default;
-};
-
-class textbox{
-private:
-    bool textready = false;
-    std::string text;
-    float x,y;
-    float width, height;
-    float fontsize;
-    Color textcolor;
-    Color background;
-    TTF_Font* font = nullptr;
-    SDL_Texture* texture = nullptr;
-    SDL_Surface* surface = nullptr;
-public:
-    textbox(std::string text = "",float x = 0, float y = 0, float width = 50, float height = 50, Color background = Colors::Gray, Color textcolor = Colors::White, float fontsize = 12);
-    void TextInit(SDL_Renderer* renderer);
-    void DrawnEntity(SDL_Renderer* renderer);
-    ~textbox();
 };
 

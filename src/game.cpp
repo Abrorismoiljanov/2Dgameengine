@@ -1,5 +1,6 @@
 #include "game.h"
 #include "Components.h"
+#include "UIElements.h"
 #include "colors.h"
 #include "events.h"
 #include <SDL_image.h>
@@ -8,10 +9,10 @@
 #include <SDL_ttf.h>
 #include <SDL_video.h>
 #include <asm-generic/errno.h>
-#include <string>
 #include "entity.h"
 #include "error.h"
 #include "Components.h"
+#include <memory>
 #include <vector>
 using namespace Colors;
 
@@ -19,9 +20,14 @@ void Game::GameInit(){
     TTF_Init();    
     IMG_Init(IMG_INIT_JPG || IMG_INIT_PNG);
 
-    window = SDL_CreateWindow("Hello", 100, 100, 1280, 1080, SDL_WINDOW_SHOWN);
+    window = SDL_CreateWindow("Hello", 100, 100, 1920, 1080, SDL_WINDOW_SHOWN);
     renderer = SDL_CreateRenderer(window, -1, SDL_RENDERER_ACCELERATED);
-    
+//////////////////////////////////////////////////////////////////////////////////////
+    elements.push_back(
+    std::make_unique<textbox>("Text", 100, 100, 200, 70, Gray, Black,24)
+            );
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+
     entity* dude = new entity();
     entity* ns = new entity();
     TransformComponent* dudetransform = dude->addComponent<TransformComponent>(100, 150, 45, 1, 1);
@@ -33,6 +39,7 @@ void Game::GameInit(){
     TextureComponent* nstexture = ns->addComponent<TextureComponent>("../../../Pictures/Msdos-1730606937.png", renderer);
     nstexture->setTransform(nstransform);
     objects.push_back(ns);
+
 }
 void Game::RunGame(){
     while (gamerun) {
@@ -59,6 +66,10 @@ void Game::Render(){
     for (entity* obj : objects) {
         obj ->DrawnEntity(renderer);
     }
+
+    for (auto& elm: elements) {
+        elm->Render(renderer);
+    }       
 
     SDL_RenderPresent(renderer);
 }

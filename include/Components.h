@@ -55,6 +55,17 @@ public:
     void setTransform(TransformComponent* t);
 };
 
+class CameraComponent : public Component{
+public:
+    float zoom = 1.0;
+    float width = 640;
+    float height = 360;
+    bool isMainCamera = false;
+
+    CameraComponent() = default;
+
+    void update(float dt) override;
+};
 
 
 

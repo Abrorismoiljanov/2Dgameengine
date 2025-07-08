@@ -15,7 +15,15 @@ find_package(SDL2_ttf REQUIRED)
 find_package(SDL2_image REQUIRED)
 
 # Add source files
-file(GLOB_RECURSE SOURCES src/*.cpp)
+file(GLOB_RECURSE SOURCES 
+  src/main.cpp
+  src/Components.cpp
+  src/entity.cpp
+  src/event.cpp
+  src/game.cpp
+  src/UIElements.cpp
+  src/error.cpp
+)
 
 # Create executable
 add_executable(${PROJECT_NAME} ${SOURCES})

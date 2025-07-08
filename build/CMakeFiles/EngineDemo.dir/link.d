@@ -3,6 +3,7 @@ EngineDemo: \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/../../../../lib/crti.o \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/crtbeginS.o \
   CMakeFiles/EngineDemo.dir/src/Components.cpp.o \
+  CMakeFiles/EngineDemo.dir/src/UIElements.cpp.o \
   CMakeFiles/EngineDemo.dir/src/entity.cpp.o \
   CMakeFiles/EngineDemo.dir/src/error.cpp.o \
   CMakeFiles/EngineDemo.dir/src/event.cpp.o \
@@ -87,6 +88,8 @@ EngineDemo: \
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/crtbeginS.o:
 
 CMakeFiles/EngineDemo.dir/src/Components.cpp.o:
+
+CMakeFiles/EngineDemo.dir/src/UIElements.cpp.o:
 
 CMakeFiles/EngineDemo.dir/src/entity.cpp.o:
 

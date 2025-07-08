@@ -1,6 +1,6 @@
-CMakeFiles/EngineDemo.dir/src/game.cpp.o: \
- /home/abror/C++_codes/EngineDemo/src/game.cpp /usr/include/stdc-predef.h \
- /home/abror/C++_codes/EngineDemo/include/game.h \
+CMakeFiles/EngineDemo.dir/src/UIElements.cpp.o: \
+ /home/abror/C++_codes/EngineDemo/src/UIElements.cpp \
+ /usr/include/stdc-predef.h \
  /home/abror/C++_codes/EngineDemo/include/UIElements.h \
  /usr/include/c++/15.1.1/iostream \
  /usr/include/c++/15.1.1/bits/requires_hosted.h \
@@ -324,38 +324,4 @@ CMakeFiles/EngineDemo.dir/src/game.cpp.o: \
  /usr/include/c++/15.1.1/numeric \
  /usr/include/c++/15.1.1/bits/stl_numeric.h \
  /usr/include/c++/15.1.1/pstl/glue_numeric_defs.h \
- /usr/include/c++/15.1.1/pstl/execution_defs.h \
- /home/abror/C++_codes/EngineDemo/include/events.h \
- /usr/include/SDL2/SDL_events.h /usr/include/SDL2/SDL_render.h \
- /usr/include/SDL2/SDL_video.h /usr/include/c++/15.1.1/memory \
- /usr/include/c++/15.1.1/bits/stl_tempbuf.h \
- /usr/include/c++/15.1.1/bits/stl_uninitialized.h \
- /usr/include/c++/15.1.1/bits/stl_raw_storage_iter.h \
- /usr/include/c++/15.1.1/bits/align.h \
- /usr/include/c++/15.1.1/bits/shared_ptr.h \
- /usr/include/c++/15.1.1/bits/shared_ptr_base.h \
- /usr/include/c++/15.1.1/bits/allocated_ptr.h \
- /usr/include/c++/15.1.1/ext/aligned_buffer.h \
- /usr/include/c++/15.1.1/ext/concurrence.h \
- /usr/include/c++/15.1.1/bits/shared_ptr_atomic.h \
- /usr/include/c++/15.1.1/bits/atomic_base.h \
- /usr/include/c++/15.1.1/bits/atomic_lockfree_defines.h \
- /usr/include/c++/15.1.1/backward/auto_ptr.h \
- /usr/include/c++/15.1.1/pstl/glue_memory_defs.h \
- /usr/include/c++/15.1.1/vector /usr/include/c++/15.1.1/bits/stl_vector.h \
- /usr/include/c++/15.1.1/bits/stl_bvector.h \
- /usr/include/c++/15.1.1/bits/vector.tcc \
- /home/abror/C++_codes/EngineDemo/include/entity.h \
- /usr/include/SDL2/SDL_render.h /usr/include/c++/15.1.1/typeindex \
- /usr/include/c++/15.1.1/unordered_map \
- /usr/include/c++/15.1.1/bits/unordered_map.h \
- /usr/include/c++/15.1.1/bits/hashtable.h \
- /usr/include/c++/15.1.1/bits/hashtable_policy.h \
- /usr/include/c++/15.1.1/bits/enable_special_members.h \
- /usr/include/c++/15.1.1/bits/node_handle.h \
- /usr/include/c++/15.1.1/bits/erase_if.h /usr/include/c++/15.1.1/utility \
- /usr/include/c++/15.1.1/bits/stl_relops.h \
- /home/abror/C++_codes/EngineDemo/include/Components.h \
- /usr/include/SDL2/SDL.h /usr/include/SDL2/SDL_image.h \
- /usr/include/SDL2/SDL_scancode.h \
- /home/abror/C++_codes/EngineDemo/include/error.h
+ /usr/include/c++/15.1.1/pstl/execution_defs.h

@@ -7,6 +7,12 @@
 },
 {
   "directory": "/home/abror/C++_codes/EngineDemo/build",
+  "command": "/usr/bin/c++  -I/home/abror/C++_codes/EngineDemo/include -isystem /usr/include/SDL2 -std=gnu++17 -o CMakeFiles/EngineDemo.dir/src/UIElements.cpp.o -c /home/abror/C++_codes/EngineDemo/src/UIElements.cpp",
+  "file": "/home/abror/C++_codes/EngineDemo/src/UIElements.cpp",
+  "output": "CMakeFiles/EngineDemo.dir/src/UIElements.cpp.o"
+},
+{
+  "directory": "/home/abror/C++_codes/EngineDemo/build",
   "command": "/usr/bin/c++  -I/home/abror/C++_codes/EngineDemo/include -isystem /usr/include/SDL2 -std=gnu++17 -o CMakeFiles/EngineDemo.dir/src/entity.cpp.o -c /home/abror/C++_codes/EngineDemo/src/entity.cpp",
   "file": "/home/abror/C++_codes/EngineDemo/src/entity.cpp",
   "output": "CMakeFiles/EngineDemo.dir/src/entity.cpp.o"

@@ -1,6 +1,6 @@
 #include "error.h"
+#include "UIElements.h"
 #include "colors.h"
-#include "entity.h"
 #include "events.h"
 #include <SDL.h>
 #include <SDL_keycode.h>
@@ -33,8 +33,8 @@ void Errormessage(std::string message, SDL_Window* window, SDL_Renderer* rendere
     pressOKpls = false;
     }
 
-    messagebox.DrawnEntity(errorrenderer);
-    Okbox.DrawnEntity(errorrenderer);
+    messagebox.Render(errorrenderer);
+    Okbox.Render(errorrenderer);
     SDL_RenderPresent(errorrenderer);
     SDL_Delay(16);
     }

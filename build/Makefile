@@ -153,6 +153,30 @@ src/Components.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/EngineDemo.dir/build.make CMakeFiles/EngineDemo.dir/src/Components.cpp.s
 .PHONY : src/Components.cpp.s
 
+src/UIElements.o: src/UIElements.cpp.o
+.PHONY : src/UIElements.o
+
+# target to build an object file
+src/UIElements.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EngineDemo.dir/build.make CMakeFiles/EngineDemo.dir/src/UIElements.cpp.o
+.PHONY : src/UIElements.cpp.o
+
+src/UIElements.i: src/UIElements.cpp.i
+.PHONY : src/UIElements.i
+
+# target to preprocess a source file
+src/UIElements.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EngineDemo.dir/build.make CMakeFiles/EngineDemo.dir/src/UIElements.cpp.i
+.PHONY : src/UIElements.cpp.i
+
+src/UIElements.s: src/UIElements.cpp.s
+.PHONY : src/UIElements.s
+
+# target to generate assembly for a file
+src/UIElements.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EngineDemo.dir/build.make CMakeFiles/EngineDemo.dir/src/UIElements.cpp.s
+.PHONY : src/UIElements.cpp.s
+
 src/entity.o: src/entity.cpp.o
 .PHONY : src/entity.o
 
@@ -285,6 +309,9 @@ help:
 	@echo "... src/Components.o"
 	@echo "... src/Components.i"
 	@echo "... src/Components.s"
+	@echo "... src/UIElements.o"
+	@echo "... src/UIElements.i"
+	@echo "... src/UIElements.s"
 	@echo "... src/entity.o"
 	@echo "... src/entity.i"
 	@echo "... src/entity.s"

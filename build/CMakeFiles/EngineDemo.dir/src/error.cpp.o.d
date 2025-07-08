@@ -144,10 +144,16 @@ CMakeFiles/EngineDemo.dir/src/error.cpp.o: \
  /usr/include/c++/15.1.1/bits/uses_allocator.h \
  /usr/include/c++/15.1.1/bits/uses_allocator_args.h \
  /usr/include/c++/15.1.1/tuple \
- /home/abror/C++_codes/EngineDemo/include/colors.h \
- /usr/include/SDL2/SDL_pixels.h /usr/include/SDL2/SDL_stdinc.h \
- /usr/include/c++/15.1.1/bits/std_thread.h \
- /usr/include/c++/15.1.1/bits/unique_ptr.h \
+ /home/abror/C++_codes/EngineDemo/include/UIElements.h \
+ /usr/include/c++/15.1.1/iostream /usr/include/c++/15.1.1/ostream \
+ /usr/include/c++/15.1.1/bits/ostream.h /usr/include/c++/15.1.1/ios \
+ /usr/include/c++/15.1.1/exception \
+ /usr/include/c++/15.1.1/bits/exception_ptr.h \
+ /usr/include/c++/15.1.1/bits/cxxabi_init_exception.h \
+ /usr/include/c++/15.1.1/typeinfo \
+ /usr/include/c++/15.1.1/bits/nested_exception.h \
+ /usr/include/c++/15.1.1/bits/ios_base.h \
+ /usr/include/c++/15.1.1/ext/atomicity.h \
  /usr/include/c++/15.1.1/x86_64-pc-linux-gnu/bits/gthr.h \
  /usr/include/c++/15.1.1/x86_64-pc-linux-gnu/bits/gthr-default.h \
  /usr/include/pthread.h /usr/include/sched.h /usr/include/bits/sched.h \
@@ -162,17 +168,29 @@ CMakeFiles/EngineDemo.dir/src/error.cpp.o: \
  /usr/include/bits/types/struct_tm.h \
  /usr/include/bits/types/struct_itimerspec.h /usr/include/bits/setjmp.h \
  /usr/include/bits/types/struct___jmp_buf_tag.h \
- /usr/include/c++/15.1.1/numeric \
- /usr/include/c++/15.1.1/bits/stl_numeric.h \
- /usr/include/c++/15.1.1/pstl/glue_numeric_defs.h \
- /usr/include/c++/15.1.1/pstl/execution_defs.h \
- /home/abror/C++_codes/EngineDemo/include/entity.h \
- /usr/include/SDL2/SDL_render.h /usr/include/SDL2/SDL_ttf.h \
- /usr/include/SDL2/SDL.h /usr/include/SDL2/SDL_main.h \
- /usr/include/SDL2/SDL_assert.h /usr/include/SDL2/SDL_atomic.h \
- /usr/include/SDL2/SDL_audio.h /usr/include/SDL2/SDL_mutex.h \
- /usr/include/SDL2/SDL_thread.h /usr/include/SDL2/SDL_clipboard.h \
- /usr/include/SDL2/SDL_cpuinfo.h \
+ /usr/include/c++/15.1.1/x86_64-pc-linux-gnu/bits/atomic_word.h \
+ /usr/include/sys/single_threaded.h \
+ /usr/include/c++/15.1.1/bits/locale_classes.h \
+ /usr/include/c++/15.1.1/bits/locale_classes.tcc \
+ /usr/include/c++/15.1.1/system_error \
+ /usr/include/c++/15.1.1/x86_64-pc-linux-gnu/bits/error_constants.h \
+ /usr/include/c++/15.1.1/stdexcept /usr/include/c++/15.1.1/streambuf \
+ /usr/include/c++/15.1.1/bits/streambuf.tcc \
+ /usr/include/c++/15.1.1/bits/basic_ios.h \
+ /usr/include/c++/15.1.1/bits/locale_facets.h \
+ /usr/include/c++/15.1.1/cwctype /usr/include/wctype.h \
+ /usr/include/bits/wctype-wchar.h \
+ /usr/include/c++/15.1.1/x86_64-pc-linux-gnu/bits/ctype_base.h \
+ /usr/include/c++/15.1.1/bits/streambuf_iterator.h \
+ /usr/include/c++/15.1.1/x86_64-pc-linux-gnu/bits/ctype_inline.h \
+ /usr/include/c++/15.1.1/bits/locale_facets.tcc \
+ /usr/include/c++/15.1.1/bits/basic_ios.tcc \
+ /usr/include/c++/15.1.1/bits/ostream.tcc /usr/include/c++/15.1.1/istream \
+ /usr/include/c++/15.1.1/bits/istream.tcc /usr/include/SDL2/SDL.h \
+ /usr/include/SDL2/SDL_main.h /usr/include/SDL2/SDL_assert.h \
+ /usr/include/SDL2/SDL_atomic.h /usr/include/SDL2/SDL_audio.h \
+ /usr/include/SDL2/SDL_mutex.h /usr/include/SDL2/SDL_thread.h \
+ /usr/include/SDL2/SDL_clipboard.h /usr/include/SDL2/SDL_cpuinfo.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/immintrin.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/x86gprintrin.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/ia32intrin.h \
@@ -300,39 +318,15 @@ CMakeFiles/EngineDemo.dir/src/error.cpp.o: \
  /usr/include/SDL2/SDL_shape.h /usr/include/SDL2/SDL_system.h \
  /usr/include/SDL2/SDL_timer.h /usr/include/SDL2/SDL_version.h \
  /usr/include/SDL2/SDL_locale.h /usr/include/SDL2/SDL_misc.h \
- /usr/include/c++/15.1.1/memory \
- /usr/include/c++/15.1.1/bits/stl_tempbuf.h \
- /usr/include/c++/15.1.1/bits/stl_uninitialized.h \
- /usr/include/c++/15.1.1/bits/stl_raw_storage_iter.h \
- /usr/include/c++/15.1.1/bits/align.h \
- /usr/include/c++/15.1.1/bits/shared_ptr.h \
- /usr/include/c++/15.1.1/bits/shared_ptr_base.h \
- /usr/include/c++/15.1.1/typeinfo \
- /usr/include/c++/15.1.1/bits/allocated_ptr.h \
- /usr/include/c++/15.1.1/ext/aligned_buffer.h \
- /usr/include/c++/15.1.1/ext/atomicity.h \
- /usr/include/c++/15.1.1/x86_64-pc-linux-gnu/bits/atomic_word.h \
- /usr/include/sys/single_threaded.h \
- /usr/include/c++/15.1.1/ext/concurrence.h \
- /usr/include/c++/15.1.1/exception \
- /usr/include/c++/15.1.1/bits/exception_ptr.h \
- /usr/include/c++/15.1.1/bits/cxxabi_init_exception.h \
- /usr/include/c++/15.1.1/bits/nested_exception.h \
- /usr/include/c++/15.1.1/bits/shared_ptr_atomic.h \
- /usr/include/c++/15.1.1/bits/atomic_base.h \
- /usr/include/c++/15.1.1/bits/atomic_lockfree_defines.h \
- /usr/include/c++/15.1.1/backward/auto_ptr.h \
- /usr/include/c++/15.1.1/pstl/glue_memory_defs.h \
- /usr/include/c++/15.1.1/typeindex /usr/include/c++/15.1.1/unordered_map \
- /usr/include/c++/15.1.1/bits/unordered_map.h \
- /usr/include/c++/15.1.1/bits/hashtable.h \
- /usr/include/c++/15.1.1/bits/hashtable_policy.h \
- /usr/include/c++/15.1.1/bits/enable_special_members.h \
- /usr/include/c++/15.1.1/bits/node_handle.h \
- /usr/include/c++/15.1.1/bits/erase_if.h /usr/include/c++/15.1.1/utility \
- /usr/include/c++/15.1.1/bits/stl_relops.h \
- /home/abror/C++_codes/EngineDemo/include/Components.h \
- /usr/include/SDL2/SDL.h \
+ /usr/include/SDL2/SDL_ttf.h /usr/include/SDL2/SDL.h \
+ /home/abror/C++_codes/EngineDemo/include/colors.h \
+ /usr/include/SDL2/SDL_pixels.h /usr/include/SDL2/SDL_stdinc.h \
+ /usr/include/c++/15.1.1/bits/std_thread.h \
+ /usr/include/c++/15.1.1/bits/unique_ptr.h \
+ /usr/include/c++/15.1.1/numeric \
+ /usr/include/c++/15.1.1/bits/stl_numeric.h \
+ /usr/include/c++/15.1.1/pstl/glue_numeric_defs.h \
+ /usr/include/c++/15.1.1/pstl/execution_defs.h \
  /home/abror/C++_codes/EngineDemo/include/events.h \
- /usr/include/SDL2/SDL_events.h /usr/include/SDL2/SDL.h \
- /usr/include/SDL2/SDL_keycode.h /usr/include/SDL2/SDL_timer.h
+ /usr/include/SDL2/SDL_events.h /usr/include/SDL2/SDL_keycode.h \
+ /usr/include/SDL2/SDL_timer.h
