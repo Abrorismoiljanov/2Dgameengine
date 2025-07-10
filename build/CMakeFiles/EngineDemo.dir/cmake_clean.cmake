@@ -6,8 +6,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/EngineDemo.dir/src/UIElements.cpp.o.d"
   "CMakeFiles/EngineDemo.dir/src/entity.cpp.o"
   "CMakeFiles/EngineDemo.dir/src/entity.cpp.o.d"
-  "CMakeFiles/EngineDemo.dir/src/error.cpp.o"
-  "CMakeFiles/EngineDemo.dir/src/error.cpp.o.d"
   "CMakeFiles/EngineDemo.dir/src/event.cpp.o"
   "CMakeFiles/EngineDemo.dir/src/event.cpp.o.d"
   "CMakeFiles/EngineDemo.dir/src/game.cpp.o"

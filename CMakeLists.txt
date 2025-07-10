@@ -22,7 +22,7 @@ file(GLOB_RECURSE SOURCES
   src/event.cpp
   src/game.cpp
   src/UIElements.cpp
-  src/error.cpp
+  #  src/error.cpp
 )
 
 # Create executable

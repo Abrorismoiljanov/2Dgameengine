@@ -201,30 +201,6 @@ src/entity.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/EngineDemo.dir/build.make CMakeFiles/EngineDemo.dir/src/entity.cpp.s
 .PHONY : src/entity.cpp.s
 
-src/error.o: src/error.cpp.o
-.PHONY : src/error.o
-
-# target to build an object file
-src/error.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/EngineDemo.dir/build.make CMakeFiles/EngineDemo.dir/src/error.cpp.o
-.PHONY : src/error.cpp.o
-
-src/error.i: src/error.cpp.i
-.PHONY : src/error.i
-
-# target to preprocess a source file
-src/error.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/EngineDemo.dir/build.make CMakeFiles/EngineDemo.dir/src/error.cpp.i
-.PHONY : src/error.cpp.i
-
-src/error.s: src/error.cpp.s
-.PHONY : src/error.s
-
-# target to generate assembly for a file
-src/error.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/EngineDemo.dir/build.make CMakeFiles/EngineDemo.dir/src/error.cpp.s
-.PHONY : src/error.cpp.s
-
 src/event.o: src/event.cpp.o
 .PHONY : src/event.o
 
@@ -315,9 +291,6 @@ help:
 	@echo "... src/entity.o"
 	@echo "... src/entity.i"
 	@echo "... src/entity.s"
-	@echo "... src/error.o"
-	@echo "... src/error.i"
-	@echo "... src/error.s"
 	@echo "... src/event.o"
 	@echo "... src/event.i"
 	@echo "... src/event.s"

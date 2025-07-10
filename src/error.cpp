@@ -33,8 +33,8 @@ void Errormessage(std::string message, SDL_Window* window, SDL_Renderer* rendere
     pressOKpls = false;
     }
 
-    messagebox.Render(errorrenderer);
-    Okbox.Render(errorrenderer);
+    messagebox.render(errorrenderer);
+    Okbox.render(errorrenderer);
     SDL_RenderPresent(errorrenderer);
     SDL_Delay(16);
     }

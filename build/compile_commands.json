@@ -19,12 +19,6 @@
 },
 {
   "directory": "/home/abror/C++_codes/EngineDemo/build",
-  "command": "/usr/bin/c++  -I/home/abror/C++_codes/EngineDemo/include -isystem /usr/include/SDL2 -std=gnu++17 -o CMakeFiles/EngineDemo.dir/src/error.cpp.o -c /home/abror/C++_codes/EngineDemo/src/error.cpp",
-  "file": "/home/abror/C++_codes/EngineDemo/src/error.cpp",
-  "output": "CMakeFiles/EngineDemo.dir/src/error.cpp.o"
-},
-{
-  "directory": "/home/abror/C++_codes/EngineDemo/build",
   "command": "/usr/bin/c++  -I/home/abror/C++_codes/EngineDemo/include -isystem /usr/include/SDL2 -std=gnu++17 -o CMakeFiles/EngineDemo.dir/src/event.cpp.o -c /home/abror/C++_codes/EngineDemo/src/event.cpp",
   "file": "/home/abror/C++_codes/EngineDemo/src/event.cpp",
   "output": "CMakeFiles/EngineDemo.dir/src/event.cpp.o"

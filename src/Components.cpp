@@ -1,6 +1,7 @@
 #include "Components.h"
 #include <SDL.h>
 #include <SDL_image.h>
+#include <SDL_timer.h>
 #include <iostream>
 
 TextureComponent::TextureComponent(const std::string& imagepath, SDL_Renderer* renderer)
@@ -40,8 +41,11 @@ void TextureComponent::setTransform(TransformComponent* t){
     transform = t;
 }
 
+int rot = 0;
 void TextureComponent::update(float deltatime) {
-    
+    transform->setRotation(rot);   
+    SDL_Delay(deltatime);
+    rot++;
 }
 
 void TextureComponent::render(SDL_Renderer* renderer) {

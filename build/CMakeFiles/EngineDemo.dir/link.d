@@ -5,7 +5,6 @@ EngineDemo: \
   CMakeFiles/EngineDemo.dir/src/Components.cpp.o \
   CMakeFiles/EngineDemo.dir/src/UIElements.cpp.o \
   CMakeFiles/EngineDemo.dir/src/entity.cpp.o \
-  CMakeFiles/EngineDemo.dir/src/error.cpp.o \
   CMakeFiles/EngineDemo.dir/src/event.cpp.o \
   CMakeFiles/EngineDemo.dir/src/game.cpp.o \
   CMakeFiles/EngineDemo.dir/src/main.cpp.o \
@@ -92,8 +91,6 @@ CMakeFiles/EngineDemo.dir/src/Components.cpp.o:
 CMakeFiles/EngineDemo.dir/src/UIElements.cpp.o:
 
 CMakeFiles/EngineDemo.dir/src/entity.cpp.o:
-
-CMakeFiles/EngineDemo.dir/src/error.cpp.o:
 
 CMakeFiles/EngineDemo.dir/src/event.cpp.o:
 

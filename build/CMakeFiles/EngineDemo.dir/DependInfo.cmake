@@ -11,7 +11,6 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/abror/C++_codes/EngineDemo/src/Components.cpp" "CMakeFiles/EngineDemo.dir/src/Components.cpp.o" "gcc" "CMakeFiles/EngineDemo.dir/src/Components.cpp.o.d"
   "/home/abror/C++_codes/EngineDemo/src/UIElements.cpp" "CMakeFiles/EngineDemo.dir/src/UIElements.cpp.o" "gcc" "CMakeFiles/EngineDemo.dir/src/UIElements.cpp.o.d"
   "/home/abror/C++_codes/EngineDemo/src/entity.cpp" "CMakeFiles/EngineDemo.dir/src/entity.cpp.o" "gcc" "CMakeFiles/EngineDemo.dir/src/entity.cpp.o.d"
-  "/home/abror/C++_codes/EngineDemo/src/error.cpp" "CMakeFiles/EngineDemo.dir/src/error.cpp.o" "gcc" "CMakeFiles/EngineDemo.dir/src/error.cpp.o.d"
   "/home/abror/C++_codes/EngineDemo/src/event.cpp" "CMakeFiles/EngineDemo.dir/src/event.cpp.o" "gcc" "CMakeFiles/EngineDemo.dir/src/event.cpp.o.d"
   "/home/abror/C++_codes/EngineDemo/src/game.cpp" "CMakeFiles/EngineDemo.dir/src/game.cpp.o" "gcc" "CMakeFiles/EngineDemo.dir/src/game.cpp.o.d"
   "/home/abror/C++_codes/EngineDemo/src/main.cpp" "CMakeFiles/EngineDemo.dir/src/main.cpp.o" "gcc" "CMakeFiles/EngineDemo.dir/src/main.cpp.o.d"

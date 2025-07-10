@@ -14,7 +14,7 @@ private:
     bool gamerun = true;
     InputManager input;
     std::vector<std::unique_ptr<UIElements>> elements;
-    std::vector<entity*> objects;
+    std::vector<std::unique_ptr<entity>> objects;
 public:
     void GameInit();
     void RunGame();
