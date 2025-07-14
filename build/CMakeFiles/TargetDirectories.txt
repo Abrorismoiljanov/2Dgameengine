@@ -1,3 +1,0 @@
-/home/abror/C++_codes/EngineDemo/build/CMakeFiles/EngineDemo.dir
-/home/abror/C++_codes/EngineDemo/build/CMakeFiles/edit_cache.dir
-/home/abror/C++_codes/EngineDemo/build/CMakeFiles/rebuild_cache.dir
